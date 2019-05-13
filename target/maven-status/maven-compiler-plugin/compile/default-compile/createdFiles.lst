@@ -1,0 +1,7 @@
+com\crm\pages\SimpleFormDemoPage.class
+com\crm\util\TestUtil.class
+com\crm\util\WebEventListener.class
+com\crm\pages\HomePage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\crm\base\TestBase.class
+com\crm\pages\BootStrapDatePickerPage.class

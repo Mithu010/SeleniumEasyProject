@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 12, Time elapsed: 275.127 s <<< FAILURE! - in TestSuite
+setup(com.crm.qa.testcases.HomePageTestcases)  Time elapsed: 39.283 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timeout loading page after 20000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12132, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4193971d-28df-44f6-8167-46d6682db324
+	at com.crm.qa.testcases.HomePageTestcases.setup(HomePageTestcases.java:30)
+
+VerifyBootstrapFromAndTo(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 15.004 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='datepicker']//td[@class='form-control']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11504, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eca4f364-8d08-48ae-9057-441c93f8d4d8
+*** Element info: {Using=xpath, value=//div[@id='datepicker']//td[@class='form-control']}
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:84)
+
+VerifyBootstrapPage(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 5.376 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Bootstrap Date Pickers Example] but found [WELCOME TO SELENIUM EASY DEMO
+We have listed most of the components that are used by developers to build web applications.
+Start Practising]
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:58)
+

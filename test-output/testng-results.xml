@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="11" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="218348" started-at="2019-05-10T09:31:54Z" finished-at="2019-05-10T09:35:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="218348" started-at="2019-05-10T09:31:54Z" finished-at="2019-05-10T09:35:33Z">
+      <class name="com.crm.util.TestUtil">
+        <test-method status="FAIL" signature="clickScreenshots(org.openqa.selenium.WebDriver, java.lang.String)[pri:0, instance:com.crm.util.TestUtil@6e1ec318]" name="clickScreenshots" duration-ms="0" started-at="2019-05-10T15:05:33Z" finished-at="2019-05-10T15:05:33Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method clickScreenshots requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method clickScreenshots requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:447)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickScreenshots -->
+      </class> <!-- com.crm.util.TestUtil -->
+      <class name="com.crm.qa.testcases.HomePageTestcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="setup" is-config="true" duration-ms="19027" started-at="2019-05-10T15:01:54Z" finished-at="2019-05-10T15:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InputFormLink()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="InputFormLink" duration-ms="4142" started-at="2019-05-10T15:02:14Z" finished-at="2019-05-10T15:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputFormLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="tearDown" is-config="true" duration-ms="2282" started-at="2019-05-10T15:02:18Z" finished-at="2019-05-10T15:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="setup" is-config="true" duration-ms="13626" started-at="2019-05-10T15:02:20Z" finished-at="2019-05-10T15:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SimpleFormDemo()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="SimpleFormDemo" duration-ms="5321" started-at="2019-05-10T15:02:34Z" finished-at="2019-05-10T15:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimpleFormDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="tearDown" is-config="true" duration-ms="2324" started-at="2019-05-10T15:02:39Z" finished-at="2019-05-10T15:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="setup" is-config="true" duration-ms="14355" started-at="2019-05-10T15:02:41Z" finished-at="2019-05-10T15:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyBootstrapDatePickerLink()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="VerifyBootstrapDatePickerLink" duration-ms="3858" started-at="2019-05-10T15:02:56Z" finished-at="2019-05-10T15:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBootstrapDatePickerLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="tearDown" is-config="true" duration-ms="1827" started-at="2019-05-10T15:02:59Z" finished-at="2019-05-10T15:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="setup" is-config="true" duration-ms="13753" started-at="2019-05-10T15:03:01Z" finished-at="2019-05-10T15:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyDemoLink()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="VerifyDemoLink" duration-ms="3805" started-at="2019-05-10T15:03:15Z" finished-at="2019-05-10T15:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="tearDown" is-config="true" duration-ms="2081" started-at="2019-05-10T15:03:19Z" finished-at="2019-05-10T15:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="setup" is-config="true" duration-ms="13393" started-at="2019-05-10T15:03:21Z" finished-at="2019-05-10T15:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyDemoPage()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="VerifyDemoPage" duration-ms="21" started-at="2019-05-10T15:03:34Z" finished-at="2019-05-10T15:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTestcases@3159c4b8]" name="tearDown" is-config="true" duration-ms="2681" started-at="2019-05-10T15:03:34Z" finished-at="2019-05-10T15:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTestcases -->
+      <class name="com.crm.qa.testcases.SimpleFormDemoPageTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="setup" is-config="true" duration-ms="13989" started-at="2019-05-10T15:03:37Z" finished-at="2019-05-10T15:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifySingleInputField()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="VerifySingleInputField" duration-ms="4755" started-at="2019-05-10T15:03:51Z" finished-at="2019-05-10T15:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleInputField -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="tearDown" is-config="true" duration-ms="2304" started-at="2019-05-10T15:03:56Z" finished-at="2019-05-10T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="setup" is-config="true" duration-ms="14115" started-at="2019-05-10T15:03:58Z" finished-at="2019-05-10T15:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyTwoInputField()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="VerifyTwoInputField" duration-ms="5640" started-at="2019-05-10T15:04:12Z" finished-at="2019-05-10T15:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTwoInputField -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SimpleFormDemoPageTestCases@dc24521]" name="tearDown" is-config="true" duration-ms="2685" started-at="2019-05-10T15:04:18Z" finished-at="2019-05-10T15:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.SimpleFormDemoPageTestCases -->
+      <class name="com.crm.qa.testcases.BootStrapDatePickerPageTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="setup" is-config="true" duration-ms="14213" started-at="2019-05-10T15:04:20Z" finished-at="2019-05-10T15:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifyBootstrapFromAndTo()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="VerifyBootstrapFromAndTo" duration-ms="15062" started-at="2019-05-10T15:04:35Z" finished-at="2019-05-10T15:04:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@id='datepicker']//td[@class='form-control']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13936, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 775a687f-0128-4600-9882-e66c9e385da7
+*** Element info: {Using=xpath, value=//div[@id='datepicker']//td[@class='form-control']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='datepicker']//td[@class='form-control']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13936, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 775a687f-0128-4600-9882-e66c9e385da7
+*** Element info: {Using=xpath, value=//div[@id='datepicker']//td[@class='form-control']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.crm.pages.BootStrapDatePickerPage.verifyCurrentFromDate(BootStrapDatePickerPage.java:58)
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBootstrapFromAndTo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="tearDown" is-config="true" duration-ms="1965" started-at="2019-05-10T15:04:50Z" finished-at="2019-05-10T15:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="setup" is-config="true" duration-ms="14318" started-at="2019-05-10T15:04:52Z" finished-at="2019-05-10T15:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifyBootstrapPage()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="VerifyBootstrapPage" duration-ms="4193" started-at="2019-05-10T15:05:06Z" finished-at="2019-05-10T15:05:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bootstrap Date Pickers Example] but found [WELCOME TO SELENIUM EASY DEMO
+We have listed most of the components that are used by developers to build web applications.
+Start Practising]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bootstrap Date Pickers Example] but found [WELCOME TO SELENIUM EASY DEMO
+We have listed most of the components that are used by developers to build web applications.
+Start Practising]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBootstrapPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="tearDown" is-config="true" duration-ms="2003" started-at="2019-05-10T15:05:10Z" finished-at="2019-05-10T15:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="setup" is-config="true" duration-ms="13605" started-at="2019-05-10T15:05:12Z" finished-at="2019-05-10T15:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyCurrentDate()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="VerifyCurrentDate" duration-ms="4773" started-at="2019-05-10T15:05:26Z" finished-at="2019-05-10T15:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCurrentDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.BootStrapDatePickerPageTestCases@10bdf5e5]" name="tearDown" is-config="true" duration-ms="2198" started-at="2019-05-10T15:05:31Z" finished-at="2019-05-10T15:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.BootStrapDatePickerPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

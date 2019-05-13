@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.BootStrapDatePickerPageTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="VerifyBootstrapPage"/>
+          <include name="VerifyBootstrapFromAndTo"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.BootStrapDatePickerPageTestCases -->
+      <class name="com.crm.qa.testcases.SimpleFormDemoPageTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SimpleFormDemoPageTestCases -->
+      <class name="com.crm.qa.testcases.HomePageTestcases">
+        <methods>
+          <include name="VerifyDemoPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyDemoLink"/>
+          <include name="SimpleFormDemo"/>
+          <include name="VerifyBootstrapDatePickerLink"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTestcases -->
+      <class name="com.crm.util.TestUtil">
+        <methods>
+          <include name="clickScreenshots"/>
+        </methods>
+      </class> <!-- com.crm.util.TestUtil -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
