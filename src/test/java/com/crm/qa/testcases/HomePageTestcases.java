@@ -1,6 +1,12 @@
 package com.crm.qa.testcases;
 
+import java.io.File;
+
+import org.codehaus.plexus.util.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -35,7 +41,7 @@ public class HomePageTestcases extends TestBase{
 	}
 	
 	
-	@Test
+	@Test(enabled=false)
 	public void VerifyDemoPage()
 	{
 		String demopage= homepage.VerifyPage();
@@ -46,7 +52,7 @@ public class HomePageTestcases extends TestBase{
 	}
 	
 	
-	@Test(enabled = true)
+	@Test(enabled=false)
 	public void VerifyDemoLink()
 	{
 		
@@ -60,7 +66,7 @@ public class HomePageTestcases extends TestBase{
 	}
 	
 	
-	@Test
+	@Test(enabled=false)
 	public void InputFormLink()
 	{
 		
@@ -72,7 +78,7 @@ public class HomePageTestcases extends TestBase{
 	
 
 	
-	@Test
+	@Test(enabled=false)
 	public void SimpleFormDemo()
 	{
 		
@@ -88,7 +94,7 @@ public class HomePageTestcases extends TestBase{
 			
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void VerifyBootstrapDatePickerLink()
 	{
 		
@@ -101,11 +107,51 @@ public class HomePageTestcases extends TestBase{
 			
 	}
 	
+	@Test
+	public void VerifySelectDropdownListLink()
+	{
+        homepage.DemoLink();
+		
+		homepage.InputFormLink();	
+		
+		
+		homepage.verifyDropdownListmenu();
+		
+		//Thread.sleep(50000);
+		
+		
+		TestUtil.clickScreenshots(driver, "VerifySelectDropdownListLink");
+		
+		
+	}
+	
 	
 	@AfterMethod()
-	public void tearDown()
+	public void tearDown(ITestResult result)
 	{
+		
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+		
+		// Create reference of TakesScreenshot
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		 
+		// Call method to capture screenshot
+		File source=ts.getScreenshotAs(OutputType.FILE);
+		 
+		// Copy files to specific location here it will save all screenshot in our project home directory and
+		// result.getName() will return name of test case so that screenshot name will be same
+		try {
+			FileUtils.copyFile(source, new File("./Screenshots/"+result.getName()+"_"+System.currentTimeMillis()+".png"));
+		} catch (Exception e) {
+			
+			e.getMessage();
+		}
+		
+	
+		}
+		
 		driver.quit();
-	}
+		}
 
 }

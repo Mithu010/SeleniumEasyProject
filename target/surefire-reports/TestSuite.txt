@@ -1,33 +1,114 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 3, Errors: 0, Skipped: 12, Time elapsed: 275.127 s <<< FAILURE! - in TestSuite
-setup(com.crm.qa.testcases.HomePageTestcases)  Time elapsed: 39.283 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Timeout loading page after 20000ms
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 1, Time elapsed: 167.287 s <<< FAILURE! - in TestSuite
+VerifySingleInputField(com.crm.qa.testcases.SimpleFormDemoPageTestCases)  Time elapsed: 4.343 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <a class="btn btn-success" href="http://www.seleniumeasy.com/test"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12132, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4193971d-28df-44f6-8167-46d6682db324
-	at com.crm.qa.testcases.HomePageTestcases.setup(HomePageTestcases.java:30)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2296, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4680a75-6550-4e46-9ac8-ca4fadabd31d
+	at com.crm.qa.testcases.SimpleFormDemoPageTestCases.VerifySingleInputField(SimpleFormDemoPageTestCases.java:45)
 
-VerifyBootstrapFromAndTo(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 15.004 s  <<< FAILURE!
+VerifySelectDropdownListLink(com.crm.qa.testcases.HomePageTestcases)  Time elapsed: 14.319 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@id='datepicker']//td[@class='form-control']
+Unable to locate element: Input Forms1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11504, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: eca4f364-8d08-48ae-9057-441c93f8d4d8
-*** Element info: {Using=xpath, value=//div[@id='datepicker']//td[@class='form-control']}
-	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:84)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2296, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4680a75-6550-4e46-9ac8-ca4fadabd31d
+*** Element info: {Using=link text, value=Input Forms1}
+	at com.crm.qa.testcases.HomePageTestcases.VerifySelectDropdownListLink(HomePageTestcases.java:115)
 
-VerifyBootstrapPage(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 5.376 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Bootstrap Date Pickers Example] but found [WELCOME TO SELENIUM EASY DEMO
-We have listed most of the components that are used by developers to build web applications.
-Start Practising]
-	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:58)
+tearDown(com.crm.qa.testcases.HomePageTestcases)  Time elapsed: 21.646 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2296, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f4680a75-6550-4e46-9ac8-ca4fadabd31d
+	at com.crm.qa.testcases.HomePageTestcases.tearDown(HomePageTestcases.java:154)
+
+VerifyBootstrapFromAndTo(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 13.441 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Demo Website!
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16264, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e280c88-1c83-4706-a557-13763b354b26
+*** Element info: {Using=link text, value=Demo Website!}
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:90)
+
+VerifyTwoInputField(com.crm.qa.testcases.SimpleFormDemoPageTestCases)  Time elapsed: 23.528 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Input Forms1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16264, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e280c88-1c83-4706-a557-13763b354b26
+*** Element info: {Using=link text, value=Input Forms1}
+	at com.crm.qa.testcases.SimpleFormDemoPageTestCases.VerifyTwoInputField(SimpleFormDemoPageTestCases.java:62)
+
+tearDown(com.crm.qa.testcases.SimpleFormDemoPageTestCases)  Time elapsed: 30.659 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16264, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e280c88-1c83-4706-a557-13763b354b26
+	at com.crm.qa.testcases.SimpleFormDemoPageTestCases.tearDown(SimpleFormDemoPageTestCases.java:104)
+
+VerifyCurrentDate(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 13.663 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Demo Website!
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2584, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb8bb2bd-904c-4088-8337-82d7b4542f75
+*** Element info: {Using=link text, value=Demo Website!}
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyCurrentDate(BootStrapDatePickerPageTestCases.java:77)
+
+VerifyBootstrapPage(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 19.539 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: driver.version: EventFiringWebDriver
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:64)
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2584, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb8bb2bd-904c-4088-8337-82d7b4542f75
+*** Element info: {Using=link text, value=Bootstrap Date Picker}
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapPage(BootStrapDatePickerPageTestCases.java:64)
+
+tearDown(com.crm.qa.testcases.BootStrapDatePickerPageTestCases)  Time elapsed: 21.608 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43165
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL44401', ip: '10.91.112.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_76-ea'
+Driver info: driver.version: EventFiringWebDriver
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.tearDown(BootStrapDatePickerPageTestCases.java:113)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:43165
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.tearDown(BootStrapDatePickerPageTestCases.java:113)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.tearDown(BootStrapDatePickerPageTestCases.java:113)
 

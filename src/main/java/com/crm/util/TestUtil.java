@@ -9,6 +9,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -91,12 +92,13 @@ public class TestUtil extends TestBase{
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		
 		
-		//FileUtils.copyFile(source, new File("./Screenshots/"+testScreenName+"_"+System.currentTimeMillis()+".png"));
+		FileUtils.copyFile(source, new File("./Screenshots/"+testScreenName+"_"+System.currentTimeMillis()+".png"));
 		
 	} catch (Exception e) {
 		
 	}
-}
+  }
+	
 
 
 }

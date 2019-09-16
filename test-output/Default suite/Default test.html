@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 10 12:41:40 IST 2019</td>
+<td>Started on:</td><td>Tue Sep 10 15:42:23 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>32 seconds (32574 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36449 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo()'><b>VerifyBootstrapFromAndTo</b><br>Test class: com.crm.qa.testcases.BootStrapDatePickerPageTestCases</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id=&apos;datepicker&apos;]//td[@class=&apos;form-control&apos;]
+<td title='com.crm.qa.testcases.HomePageTestcases.VerifySelectDropdownListLink()'><b>VerifySelectDropdownListLink</b><br>Test class: com.crm.qa.testcases.HomePageTestcases</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: Input Forms1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;HIBACL44401&apos;, ip: &apos;10.91.112.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7712, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
-*** Element info: {Using=xpath, value=//div[@id=&apos;datepicker&apos;]//td[@class=&apos;form-control&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16684, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 182667ff-e6db-4c63-8705-d319a9cd2b1b
+*** Element info: {Using=link text, value=Input Forms1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -95,21 +95,21 @@ Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.crm.pages.BootStrapDatePickerPage.verifyCurrentFromDate(BootStrapDatePickerPage.java:58)
-	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:83)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.crm.pages.HomePage.InputFormLink(HomePage.java:66)
+	at com.crm.qa.testcases.HomePageTestcases.VerifySelectDropdownListLink(HomePageTestcases.java:115)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -134,15 +134,15 @@ Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace968113504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace968113504'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id=&apos;datepicker&apos;]//td[@class=&apos;form-control&apos;]
+</pre></div><a href='#' onClick='toggleBox("stack-trace817299424", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace817299424'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: Input Forms1
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;HIBACL44401&apos;, ip: &apos;10.91.112.58&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7712, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
-*** Element info: {Using=xpath, value=//div[@id=&apos;datepicker&apos;]//td[@class=&apos;form-control&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 16684, moz:profile: C:\Users\inmanagall\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 182667ff-e6db-4c63-8705-d319a9cd2b1b
+*** Element info: {Using=link text, value=Input Forms1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -154,21 +154,21 @@ Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.crm.pages.BootStrapDatePickerPage.verifyCurrentFromDate(BootStrapDatePickerPage.java:58)
-	at com.crm.qa.testcases.BootStrapDatePickerPageTestCases.VerifyBootstrapFromAndTo(BootStrapDatePickerPageTestCases.java:83)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.crm.pages.HomePage.InputFormLink(HomePage.java:66)
+	at com.crm.qa.testcases.HomePageTestcases.VerifySelectDropdownListLink(HomePageTestcases.java:115)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -194,8 +194,8 @@ Session ID: 7bb89f50-c95a-45d6-81b8-8271ad929f2c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>14</td>
-<td>com.crm.qa.testcases.BootStrapDatePickerPageTestCases@5f2108b5</td></tr>
+<td>13</td>
+<td>com.crm.qa.testcases.HomePageTestcases@6ddf90b0</td></tr>
 </table><p>
 </body>
 </html>

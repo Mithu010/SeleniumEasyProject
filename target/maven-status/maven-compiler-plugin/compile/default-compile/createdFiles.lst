@@ -5,3 +5,5 @@ com\crm\pages\HomePage.class
 com\qa\ExtentReportListener\ExtentReporterNG.class
 com\crm\base\TestBase.class
 com\crm\pages\BootStrapDatePickerPage.class
+com\crm\pages\SelectDropDownList.class
+MailAttachment\MailAttachementsReport.class

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.BootStrapDatePickerPageTestCases">
+      <class name="com.crm.qa.testcases.HomePageTestcases">
         <methods>
+          <include name="VerifySelectDropdownListLink"/>
+          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="VerifyBootstrapFromAndTo"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.BootStrapDatePickerPageTestCases -->
+      </class> <!-- com.crm.qa.testcases.HomePageTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

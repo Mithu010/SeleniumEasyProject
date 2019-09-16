@@ -51,8 +51,8 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	}
 
 	public void onException(Throwable error, WebDriver driver) {
-		System.out.println("Exception occured: " + error);
-		TestUtil.clickScreenshots(driver, "ExceptionScreenshots");
+	//System.out.println("Exception occured: " + error);
+	//TestUtil.clickScreenshots(driver, "ExceptionScreenshots");
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {

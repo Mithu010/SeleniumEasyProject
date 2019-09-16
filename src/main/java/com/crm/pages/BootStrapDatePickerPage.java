@@ -24,13 +24,13 @@ public class BootStrapDatePickerPage extends TestBase {
 	
 	WebElement selectDateExample;
 	
-   @FindBy (xpath="//td[@class='today day']")
+    @FindBy (xpath="//td[@class='today day']")
    
-   WebElement currentDate;
+    WebElement currentDate;
    
     @FindBy (xpath="//div[@id='datepicker']//td[@class='form-control']")
    
-   WebElement DateRangeFromeDate;
+    WebElement DateRangeFromeDate;
     
     @FindBy (xpath="//span[@class='input-group-addon']//td[@class='form-control']")
     

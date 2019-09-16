@@ -1,5 +1,6 @@
 package com.crm.pages;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -14,13 +15,13 @@ public class HomePage extends TestBase{
 	@CacheLookup // it will store the element in cache memory // webdriver fire event is used to generate 	logs
 	WebElement DemoPageLink;
 	
-	@FindBy (linkText="Input Forms")
+	@FindBy (linkText="Input Forms1")
 	
-	WebElement inputFormsLink;
+	WebElement inputFormsTab;
 	
 	@FindBy (linkText="Date pickers")
 	
-	WebElement DatePickers;
+	WebElement DatePickersTab;
 	
 	@FindBy (linkText="Simple Form Demo")
 	
@@ -29,6 +30,10 @@ public class HomePage extends TestBase{
 	@FindBy (linkText="Bootstrap Date Picker")
 	
 	WebElement BootstrapDatePickerlink;
+	
+	@FindBy (linkText="Select Dropdown List")
+	
+	WebElement SelectDropdownListLink;
 	
 	
    
@@ -58,7 +63,7 @@ public class HomePage extends TestBase{
    public HomePage InputFormLink()
    {
 
-	   inputFormsLink.click();
+	   inputFormsTab.click();
 	   
 	   return new HomePage();
 	   
@@ -78,7 +83,7 @@ public class HomePage extends TestBase{
    public HomePage verifyDatePickerMenu()
    {
 
-	   DatePickers.click();
+	   DatePickersTab.click();
 	   
 	   return new HomePage();
 	   
@@ -95,6 +100,20 @@ public class HomePage extends TestBase{
 	   
    }
    
+   
+   public SelectDropDownList verifyDropdownListmenu() {
+	   
+       Actions act= new Actions(driver);
+	   
+	   act.moveToElement(SelectDropdownListLink).click().perform();
+	   
+	   
+	   return new SelectDropDownList();
+	   
+	   
+	   
+	  
+   }
    
    
   

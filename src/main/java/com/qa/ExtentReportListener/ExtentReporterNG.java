@@ -1,11 +1,9 @@
 package com.qa.ExtentReportListener;
 
-import java.io.File;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -23,8 +21,8 @@ public class ExtentReporterNG implements IReporter {
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
-		extent = new ExtentReports(outputDirectory + File.separator
-				+ "Extent.html", true);
+		
+		extent = new ExtentReports("outputDirectory + File.separator"+ "Extent.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
@@ -40,7 +38,8 @@ public class ExtentReporterNG implements IReporter {
 		extent.flush();
 		extent.close();
 	}
-
+	
+	
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
 		ExtentTest test;
 

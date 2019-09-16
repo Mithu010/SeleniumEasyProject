@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+
 import com.crm.util.TestUtil;
 import com.crm.util.WebEventListener;
 
@@ -41,7 +42,7 @@ public class TestBase {
 		}
 		catch (IOException e){
 			e.printStackTrace();
-		}
+		    }
 		
 		
 	}
@@ -51,10 +52,11 @@ public class TestBase {
 	
 	if(browser_name.equals("chrome"))
 	{
-		System.setProperty("webdriver.chrome.driver", "");
+		System.setProperty("webdriver.chrome.driver", "D:\\Mithun\\Driver\\chromedriver.exe");
 		
 		driver=new ChromeDriver();
-	}else if (browser_name.equals("firefox"))
+	}
+	else if (browser_name.equals("firefox"))
 	{
 
 		System.setProperty("webdriver.gecko.driver", "C:\\Driver\\geckodriver\\geckodriver.exe");
@@ -81,7 +83,7 @@ public class TestBase {
 	
 	driver.get(prop.getProperty("url"));
 	
+
+  }
 	
-	
-	}
 }
